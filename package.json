@@ -1,6 +1,6 @@
 {
   "name": "arms",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Front-end modular development tools",
   "main": "index.js",
   "bin": "index.js",
@@ -40,5 +40,5 @@
     "rimraf": "^2.6.1",
     "underscore": "^1.8.3",
     "user-home": "^2.0.0"
-  },
+  }
 }

@@ -46,7 +46,7 @@ var task = {
 		var self = this;
 		loadNormalTmpl(function(){
 			console.log('\ninit project ok and please read README.md !');
-			console.log('\nPlease input : '+chalk.green('$ cd '+iAnswers.pathName+' && tnpm install '));
+			console.log('\nPlease input : '+chalk.green('$ cd '+iAnswers.pathName+' && npm install '));
 			// self.creatDist();
 			cb && cb();
 		});
