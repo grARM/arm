@@ -1,8 +1,9 @@
 {
   "name": "arms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Front-end modular development tools",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +11,16 @@
     "type": "git",
     "url": "git+https://github.com/grARM/arms.git"
   },
-  "author": "grARM",
-  "license": "ISC",
+  "engines": {
+    "node": ">=2.9"
+  },
+  "author": "grarm",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/grARM/arms/issues"
   },
