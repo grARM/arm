@@ -15,7 +15,8 @@ var spinnerInit = ora('now is init our porject ...');
 var tmplUrlMap= {
 	'webpack2': 'github:grARM/arms-tmpl-webpack2#master',
 	'jslib': 'github:grARM/arms-tmpl-jslib#master',
-	'vue2': 'github:grARM/arms-tmpl-vue2#master'
+	'vue2': 'github:grARM/arms-tmpl-vue2#master',
+	'gulp': 'github:grARM/arms-tmpl-gulp#master'
 	// 'module': 'gitcodeoa:translator/arms-tmpl-module#master'
 };
 
@@ -74,7 +75,7 @@ exports.render = function(){
 	    type: 'list',
 	    message: 'which template do you need:',
 	    name: 'template',
-	    choices: ['webpack2', 'jslib', 'vue2']
+	    choices: ['webpack2', 'jslib', 'vue2', 'gulp']
 	},{
 	    type: 'input',
 	    message: 'which pathName do you want:',
