@@ -15,6 +15,7 @@ program
     .version(require('./package').version)
     .option('-i, --init', 'init project')
     .option('-s, --server', 'start a local server')
+    .option('-el, --eslint', 'init a eslint config at current path')
     .parse(process.argv);
 
 
@@ -22,8 +23,10 @@ program
 /** init */
 if (program.init) {
 	require('./src/task/init.js').render();
-} else if(program.server) {
+} else if (program.server) {
   require('./src/task/local-server.js').render();
+} else if (program.eslint) {
+  require('./src/task/eslint.js').render();
 }
 
 program.on('--help', function () {
